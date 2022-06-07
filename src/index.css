@@ -33,14 +33,20 @@ body {
 }
 
 .grid-container {
-width: 350px;
-height: 322px;
-left: 545px;
-top: 861px;
-margin-bottom: 60px;
-background: #FFFFFF;
-box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
-border-radius: 15px;
+  width: 350px;
+  height: 322px;
+  margin-bottom: 60px;
+  padding-left: 5px;
+  padding-bottom: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 15px;
+
+}
+
+.grid-title, .grid-paragraph {
+  position: relative;
+  top: -30px;
 }
 
 .main-container {
@@ -50,6 +56,8 @@ border-radius: 15px;
 }
 
 .grid-container-one {
+  padding-left: 5px;
+  padding-bottom: 40px;
   width: 350px;
   height: 322px;
   left: 545px;
@@ -62,6 +70,12 @@ border-radius: 15px;
 
 /*Typography and color*/
 
+.icons {
+position: relative;
+top: -30px;
+
+}
+
 .grid-header {
   font-family: Plus Jakarta Sans;
   font-size: 32px;
@@ -69,7 +83,9 @@ border-radius: 15px;
   line-height: 40px;
   letter-spacing: 0px;
   color: #FFFFFF;
-  margin: 30px;
+  margin-left: 5px;
+  position: relative;
+  top: 30px;
 
 }
 
