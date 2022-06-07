@@ -4,14 +4,15 @@ import productsData from "./productsData"
 function MainContent() {
     const products = productsData.map(prod => (
         <div className="grid-container" key={prod.id}>
-            <h3>{prod.title}</h3>
-            <p>{prod.description}</p>
+            <h3 className="grid-title">{prod.title}</h3>
+            <p className="grid-paragraph">{prod.description}</p>
         </div>
     ))
     
     return (
         <div className="main-container">
         <div className="grid-container-one">
+        <h1 className="grid-header">Grow your business with proven frameworks</h1>
         </div>
         {products}
         </div>

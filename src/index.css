@@ -62,6 +62,36 @@ border-radius: 15px;
 
 /*Typography and color*/
 
+.grid-header {
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin: 30px;
+
+}
+
+.grid-title {
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #13183F;
+  margin: 30px;
+}
+
+.grid-paragraph {
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin: 30px;
+
+}
 
 
 .heading {
