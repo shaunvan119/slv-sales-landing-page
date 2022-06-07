@@ -1,14 +1,12 @@
 
-
+import Header from "./components/Header";
+import TopSection from "./components/TopSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-     
-    
-  
-      </header>
+    <div className="wrapper">
+      <Header/>
+      <TopSection/>
     </div>
   );
 }
