@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 
+
 // npm i @emailjs/browser
 
 const Result = () => {
@@ -47,8 +48,8 @@ const Contact = () => {
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
         <div> {result ? <Result/> : null}</div>
+        <input type="submit" value="Send" />
       </form>
    </div> 
   );

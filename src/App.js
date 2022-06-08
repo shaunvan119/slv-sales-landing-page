@@ -10,7 +10,7 @@ function App() {
       <Header/>
       <TopSection/>
       <MainContent/>
-      <Contact/>
+      
     </div>
   );
 }
