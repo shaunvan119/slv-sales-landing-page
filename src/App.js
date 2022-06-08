@@ -2,6 +2,7 @@
 import Header from "./components/Header";
 import TopSection from "./components/TopSection";
 import MainContent from "./components/MainContent";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <TopSection/>
       <MainContent/>
+      <Contact/>
     </div>
   );
 }
