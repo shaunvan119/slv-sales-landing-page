@@ -28,7 +28,7 @@ function Copyright(props) {
 
 const tiers = [
   {
-    title: 'Sales gun by the hour',
+    title: 'Sales rep by the hour',
     price:  '86 p/hr',
     description: [
       'Cold calling',
@@ -40,7 +40,7 @@ const tiers = [
     buttonVariant: 'outlined',
   },
   {
-    title: 'Sales gun + Digital transform',
+    title: 'Sales rep + Digital transform',
     
     price: '5430',
     description: [
@@ -97,9 +97,7 @@ function PricingContent() {
           Pricing
         </Typography>
         <Typography style={styleObj} variant="h5" align="center" color="#83869A" component="p" >
-          Quickly build an effective pricing table for your potential customers with
-          this layout. It&apos;s built with default MUI components with little
-          customization.
+          Get an uplift in lead conversions for fraction of the cost of a fulltime BDM and marketing agency.
         </Typography>
       </Container>
       {/* End hero unit */}
