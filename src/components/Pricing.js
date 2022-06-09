@@ -154,8 +154,8 @@ function PricingContent() {
                   </ul>
                 </CardContent>
                 <CardActions>
-                  <Link to="/contact">
-                  <Button  variant={tier.buttonVariant} sx={{color:'#83869A', background: '#13183F', }}>
+                <Link style={{ textDecoration: 'none', width: "100%", display: 'flex', justifyContent: 'center' }} to="/contact">
+                  <Button fullWidth variant={tier.buttonVariant} sx={{color:'#83869A', background: '#13183F'}}>
                     {tier.buttonText}
                   </Button>
                   </Link>
