@@ -60,7 +60,7 @@ const tiers = [
       'Website creation',
       'Website design',
       'Lead landing pages',
-      'LinkedIn outreach automation',
+      'LinkedIn automation',
       'Automated email campaigns',
     ],
     buttonText: 'Contact us',
@@ -71,8 +71,14 @@ const tiers = [
 
 
 function PricingContent() {
+    const styleObj = {
+    fontFamily: "Plus Jakarta Sans",
+}
+
+
   return (
-    <React.Fragment>
+   
+    <React.Fragment >
       <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none', } }} />
       <CssBaseline />
       
@@ -83,11 +89,14 @@ function PricingContent() {
           variant="h2"
           align="center"
           color="#83869A"
+          style={styleObj}
+          
+          
           gutterBottom
         >
           Pricing
         </Typography>
-        <Typography variant="h5" align="center" color="#83869A" component="p">
+        <Typography style={styleObj} variant="h5" align="center" color="#83869A" component="p" >
           Quickly build an effective pricing table for your potential customers with
           this layout. It&apos;s built with default MUI components with little
           customization.
@@ -104,6 +113,7 @@ function PricingContent() {
               xs={12}
               sm={tier.title === 'Enterprise' ? 12 : 6}
               md={4}
+              
             >
               <Card>
                 <CardHeader
@@ -115,6 +125,7 @@ function PricingContent() {
                   subheaderTypographyProps={{
                     align: 'center',
                   }}
+                  style={styleObj}
                   sx={{
                     backgroundColor: '#13183F',
                     color:'#FFFFFF',
@@ -123,8 +134,8 @@ function PricingContent() {
                 />
                 <CardContent>
                   <Box
+                  
                     sx={{
-                    
                       display: 'flex',
                       justifyContent: 'center',
                       alignItems: 'baseline',
@@ -132,7 +143,7 @@ function PricingContent() {
                       
                     }}
                   >
-                    <Typography component="h2" variant="h5" color="#83869A">
+                    <Typography style={styleObj} component="h2" variant="h5" color="#83869A">
                       From ${tier.price}
                     </Typography>
                     <Typography variant="h6" color="#83869A">
@@ -142,6 +153,7 @@ function PricingContent() {
                   <ul>
                     {tier.description.map((line) => (
                       <Typography
+                      style={styleObj}
                         component="li"
                         variant="subtitle1"
                         align="center"
@@ -155,7 +167,7 @@ function PricingContent() {
                 </CardContent>
                 <CardActions>
                 <Link style={{ textDecoration: 'none', width: "100%", display: 'flex', justifyContent: 'center' }} to="/contact">
-                  <Button fullWidth variant={tier.buttonVariant} sx={{color:'#83869A', background: '#13183F'}}>
+                  <Button fullWidth variant={tier.buttonVariant} style={styleObj} sx={{color:'#83869A', background: '#13183F'}}>
                     {tier.buttonText}
                   </Button>
                   </Link>
@@ -172,10 +184,11 @@ function PricingContent() {
         
       >
         
-        <Copyright sx={{ mt: 5 }} />
+        <Copyright style={styleObj} sx={{ mt: 5 }} />
       </Container>
       {/* End footer */}
     </React.Fragment>
+      
   );
 }
 
