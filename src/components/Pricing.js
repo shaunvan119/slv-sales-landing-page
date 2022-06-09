@@ -1,6 +1,7 @@
 
    
 import * as React from 'react';
+import {Link} from "react-router-dom"
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
@@ -11,7 +12,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import StarIcon from '@mui/icons-material/StarBorder';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
 import GlobalStyles from '@mui/material/GlobalStyles';
 import Container from '@mui/material/Container';
 
@@ -19,9 +19,7 @@ function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
+      
       {new Date().getFullYear()}
       {'.'}
     </Typography>
@@ -30,38 +28,40 @@ function Copyright(props) {
 
 const tiers = [
   {
-    title: 'Free',
-    price: '0',
+    title: 'Sales gun by the hour',
+    price:  '86 p/hr',
     description: [
-      '10 users included',
-      '2 GB of storage',
-      'Help center access',
-      'Email support',
+      'Cold calling',
+      'Appointment setting',
+      'B2B and B2C cold outreach',
+      'Lead list creation',
     ],
-    buttonText: 'Sign up for free',
+    buttonText: 'Contact us',
     buttonVariant: 'outlined',
   },
   {
-    title: 'Pro',
+    title: 'Sales gun + Digital transform',
     
-    price: '15',
+    price: '5430',
     description: [
-      '20 users included',
-      '10 GB of storage',
-      'Help center access',
-      'Priority email support',
+      'Cold calling',
+      'Appointment setting',
+      'B2B and B2C cold outreach',
+      'Outreach automation',
+      'Digital transform package'
     ],
-    buttonText: 'Get started',
+    buttonText: 'Contact us',
     buttonVariant: 'contained',
   },
   {
-    title: 'Enterprise',
-    price: '30',
+    title: 'Digital transform',
+    price: '1990',
     description: [
-      '50 users included',
-      '30 GB of storage',
-      'Help center access',
-      'Phone & email support',
+      'Website creation',
+      'Website design',
+      'Lead landing pages',
+      'LinkedIn outreach automation',
+      'Automated email campaigns',
     ],
     buttonText: 'Contact us',
     buttonVariant: 'outlined',
@@ -124,7 +124,7 @@ function PricingContent() {
                 <CardContent>
                   <Box
                     sx={{
-                    color:'pink',
+                    
                       display: 'flex',
                       justifyContent: 'center',
                       alignItems: 'baseline',
@@ -132,11 +132,11 @@ function PricingContent() {
                       
                     }}
                   >
-                    <Typography component="h2" variant="h3" color="text.primary">
-                      ${tier.price}
+                    <Typography component="h2" variant="h5" color="#83869A">
+                      From ${tier.price}
                     </Typography>
-                    <Typography variant="h6" color="text.secondary">
-                      /mo
+                    <Typography variant="h6" color="#83869A">
+                      
                     </Typography>
                   </Box>
                   <ul>
@@ -146,6 +146,7 @@ function PricingContent() {
                         variant="subtitle1"
                         align="center"
                         key={line}
+                        color="#83869A"
                       >
                         {line}
                       </Typography>
@@ -153,9 +154,11 @@ function PricingContent() {
                   </ul>
                 </CardContent>
                 <CardActions>
-                  <Button fullWidth variant={tier.buttonVariant}>
+                  <Link to="/contact">
+                  <Button  variant={tier.buttonVariant} sx={{color:'#83869A', background: '#13183F', }}>
                     {tier.buttonText}
                   </Button>
+                  </Link>
                 </CardActions>
               </Card>
             </Grid>

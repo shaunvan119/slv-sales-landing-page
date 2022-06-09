@@ -37,7 +37,7 @@ body {
   height: 322px;
   margin-bottom: 60px;
   padding-left: 5px;
-  padding-bottom: 40px;
+  padding-bottom: 350px;
   background: #FFFFFF;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 15px;
@@ -57,7 +57,7 @@ body {
 
 .grid-container-one {
   padding-left: 5px;
-  padding-bottom: 40px;
+  padding-bottom: 350px;
   width: 350px;
   height: 322px;
   left: 545px;
@@ -72,6 +72,9 @@ body {
 
 
 
+.color-logo {
+  color:  #FF6F48;
+}
 
 .icons {
 position: relative;

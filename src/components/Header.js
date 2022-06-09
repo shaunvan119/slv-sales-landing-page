@@ -4,7 +4,7 @@ function Header() {
     
     return (
         <header className="top-header">
-            <h1 className="heading">SLV PERFORMANCE</h1> 
+            <h1 className="heading"><span className="color-logo">SLV</span>PERFORMANCE</h1>
             <Link to="/contact"><button className="call-button">More Info</button></Link>
         </header>
     )
