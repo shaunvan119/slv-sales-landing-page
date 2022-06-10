@@ -5,6 +5,7 @@ import MainContent from "./components/MainContent";
 import Contact from "./components/Contact";
 import Pricing from "./components/Pricing";
 import PersonalProfile from "./components/PersonalProfile";
+import Count from "./components/CountRev";
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div className="wrapper">
 
       <Routes>
-      <Route path="/" element={[<Header/>,<TopSection/>,<MainContent/>,<PersonalProfile/>, <Pricing/> ]}/>   
+      <Route path="/" element={[<Header/>,<TopSection/>,<MainContent/>,<PersonalProfile/>, <Pricing/>, ]}/>   
           <Route path="/contact" element={<Contact/>}/>    
       </Routes>
     </div>

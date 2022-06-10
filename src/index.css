@@ -20,6 +20,11 @@ body {
   margin-bottom: 500px;
 }*/
 
+.top-section {
+  
+  margin-bottom: 150px;
+}
+
 .profile-pic {
   width: 200px;
   border-radius: 50%;
@@ -88,7 +93,9 @@ body {
 
 /*Typography and color*/
 
-
+.call-button {
+  background: #13183F;
+}
 
 .color-logo {
   color:  #FF6F48;
@@ -263,7 +270,7 @@ img {
 
 .profile-card-4 {
     display: flex;
-    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    background: #FFFFFF;
     color: #83869A;
     border-radius: 5px;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
@@ -281,7 +288,7 @@ img {
 .profile-card-4 .profile-content {
     position: relative;
     padding: 15px;
-    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    background: #FFFFFF;
 }
 
 
@@ -289,7 +296,7 @@ img {
 
 
 .profile-card-4 .profile-description {
-    color: #FFFFFF;
+    color: #83869A;
     font-size: 18px;
     padding: 10px;
 }
@@ -300,6 +307,37 @@ img {
 .profile-card-4 .profile-overview h4 {
     color: #83869A;
     font-weight: bold;
+}
+
+/*count box*/
+
+.count-component {
+  color: #83869A;
+  font-family: Plus Jakarta Sans;
+  font-weight: bold;
+}
+
+.count-box {
+  line-height: 0;
+}
+
+.counter-section {
+  max-width: 650px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.count-box {
+  width: 200px;
+  height: 65px;
+  text-align: center;
+  color: #83869A;
+  font-family: Plus Jakarta Sans;
+  padding-bottom: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 50px rgba(2, 4, 14, 0.044);
+  border-radius: 15px;
 }
 
 
