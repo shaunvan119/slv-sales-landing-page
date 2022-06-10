@@ -1,6 +1,7 @@
 import productsData from "./productsData"
 
 
+
 function MainContent() {
     const products = productsData.map(prod => (
         <div className="grid-container" key={prod.id}> 

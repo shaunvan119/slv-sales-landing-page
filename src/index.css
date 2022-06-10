@@ -10,6 +10,22 @@ body {
 
 /*Layout*/
 
+/*.profile {
+  margin-left: 50%; height: 100px;
+
+}
+
+.top-section {
+  width: 50%; height: 100px; float: left;
+  margin-bottom: 500px;
+}*/
+
+.profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -231,6 +247,64 @@ button {
     }
 
     /*MQ*/
+
+
+
+/*Proifile card*/
+
+
+img {
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 5px solid #83869A;
+}
+
+
+.profile-card-4 {
+    display: flex;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #83869A;
+    border-radius: 5px;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    overflow: hidden;
+    margin: 10px auto;
+    cursor: pointer;
+    font-family: Plus Jakarta Sans;
+}
+
+.profile-card-4 img {
+    transition: all 0.25s linear;
+    height: 300px;
+}
+
+.profile-card-4 .profile-content {
+    position: relative;
+    padding: 15px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+
+
+
+
+.profile-card-4 .profile-description {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+
+.profile-card-4 .profile-overview h4 {
+    color: #83869A;
+    font-weight: bold;
+}
+
+
+
+/*MQ*/
 @media  (max-width: 1071px) {
   .main-container, .top-section {
     display: flex;
@@ -244,6 +318,8 @@ button {
    
     display: flex;
     margin: 10px;
+   
+   
     
   }
 
@@ -258,6 +334,14 @@ button {
   flex-direction: column;
   margin: 10px;
 }
+
+.profile-card-4{
+  display: flex;
+  flex-direction: column;
+}
 }
 
-  
+
+
+
+

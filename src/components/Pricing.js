@@ -54,7 +54,7 @@ const tiers = [
     buttonVariant: 'contained',
   },
   {
-    title: 'Digital transform',
+    title: 'Digital transform ',
     price: '1990',
     description: [
       'Website creation',
