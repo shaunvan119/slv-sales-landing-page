@@ -5,8 +5,11 @@ import MainContent from "./components/MainContent";
 import Contact from "./components/Contact";
 import Pricing from "./components/Pricing";
 import PersonalProfile from "./components/PersonalProfile";
-import LeadPage from "./components/LeadPage";
-import ColdCallingPage from "./components/ColdCallingPage";
+import LeadPage from "./components/infopages/LeadPage";
+import ColdCallingPage from "./components/infopages/ColdCallingPage";
+import ApptPage from "./components/infopages/ApptPage";
+import AutoPage from "./components/infopages/AutoPage";
+import WebCreation from "./components/infopages/WebCreation";
 
 
 function App() {
@@ -18,7 +21,10 @@ function App() {
       <Route path="/" element={[<Header/>,<TopSection/>,<MainContent/>,<PersonalProfile/>, <Pricing/>, ]}/>   
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/leadpage" element={<LeadPage/>}/> 
-          <Route path="/ColdCallingPage" element={<ColdCallingPage/>}></Route>     
+          <Route path="/ColdCallingPage" element={<ColdCallingPage/>}></Route> 
+          <Route path="/ApptPage" element={<ApptPage/>}></Route>     
+          <Route path="/AutoPage" element={<AutoPage/>}></Route>     
+          <Route path="/WebCreation" element={<WebCreation/>}></Route>         
       </Routes>
     </div>
   );

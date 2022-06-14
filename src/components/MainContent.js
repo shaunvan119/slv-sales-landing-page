@@ -5,6 +5,9 @@ import {Link} from "react-router-dom"
 
 function MainContent() {
     const products = productsData.map(prod => (
+
+
+        
         <div className="grid-container" key={prod.id}> 
             <p className="icons">{prod.IconLeads}</p>
             <p className="icons">{prod.IconCalling}</p> 

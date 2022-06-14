@@ -3,7 +3,7 @@ function AutoPage() {
     
     return (
         <div>
-        <p>Place holder</p>
+        <p>Auto Place holder</p>
            
         </div>
         

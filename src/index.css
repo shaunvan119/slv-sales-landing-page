@@ -93,6 +93,11 @@ body {
 
 /*Typography and color*/
 
+
+
+
+
+
 .call-button {
   background: #13183F;
 }
@@ -328,7 +333,6 @@ img {
   max-width: 650px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .count-box {
@@ -345,6 +349,7 @@ img {
 
 
 
+
 /*MQ*/
 @media  (max-width: 1071px) {
   .main-container, .top-section {
@@ -356,18 +361,13 @@ img {
   }
 
   .top-section {
-   
     display: flex;
-    margin: 10px;
-   
-   
-    
+    margin: 10px; 
   }
 
   .wrapper {
   display: flex;
   flex-direction: column;
-
 }
 
 .top-header {
