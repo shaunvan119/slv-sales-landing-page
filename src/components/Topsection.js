@@ -17,6 +17,7 @@ function TopSection() {
             <CountLeads/>
             <CountWeb/> 
             </div> 
+            <div className="color-item"></div>
         </div>
         
     )

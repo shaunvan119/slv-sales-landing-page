@@ -20,6 +20,9 @@ body {
   margin-bottom: 500px;
 }*/
 
+
+
+
 .top-section {
   
   margin-bottom: 150px;
@@ -319,6 +322,8 @@ img {
 
 /*count box*/
 
+
+
 .count-component {
   color: #83869A;
   font-family: Plus Jakarta Sans;
@@ -327,6 +332,7 @@ img {
 
 .count-box {
   line-height: 0;
+  
 }
 
 .counter-section {
