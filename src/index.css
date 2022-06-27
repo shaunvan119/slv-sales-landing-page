@@ -365,6 +365,10 @@ button {
 
 }
 
+.top-section {
+ 
+}
+
 /*Web creation page Typography*/
 
 .projects-header {
@@ -376,6 +380,8 @@ button {
 .portfolio-grid {
   display: grid;
   grid-template-columns: auto auto;
+ 
+  
 }
 
 
