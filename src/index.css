@@ -2,13 +2,14 @@ body {
   margin: 0;
   background: #F2F2F2;
   
+  font-family: Plus Jakarta Sans;
   
 }
 
 
 
 
-/*Layout*/
+
 
 /*.profile {
   margin-left: 50%; height: 100px;
@@ -21,10 +22,9 @@ body {
 }*/
 
 
-
+/*Layout home page*/
 
 .top-section {
-  
   margin-bottom: 150px;
 }
 
@@ -94,11 +94,7 @@ body {
   border-radius: 15px;
 }
 
-/*Typography and color*/
-
-
-
-
+/*Typography and color home page*/
 
 
 .call-button {
@@ -114,8 +110,6 @@ position: relative;
 top: -30px;
 
 }
-
-
 
 
 .grid-header {
@@ -195,6 +189,8 @@ button {
   border: none;
 }
 
+
+
 .more-info {
   background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 
@@ -271,7 +267,7 @@ button {
 /*Proifile card*/
 
 
-img {
+.img-responsive {
   border-radius: 50%;
   margin-left: 5px;
   margin-top: 5px;
@@ -354,9 +350,37 @@ img {
 }
 
 
+/*Web creation page layou*/
+
+.portfolio-grid-images {
+  width: 500px;
+  height: 410px;
+  margin: 20px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+}
+
+.projects-header {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+/*Web creation page Typography*/
+
+.projects-header {
+  color: #83869A;
+
+}
 
 
-/*MQ*/
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+
+/*MQ mobile home page*/
 @media  (max-width: 1071px) {
   .main-container, .top-section {
     display: flex;
