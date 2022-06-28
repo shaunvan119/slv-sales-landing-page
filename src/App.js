@@ -4,7 +4,7 @@ import TopSection from "./components/TopSection";
 import MainContent from "./components/MainContent";
 import Contact from "./components/Contact";
 import Pricing from "./components/Pricing";
-import PersonalProfile from "./components/PersonalProfile";
+import Footer from "./components/Footer";
 import LeadPage from "./components/infopages/LeadPage";
 import ColdCallingPage from "./components/infopages/ColdCallingPage";
 import ApptPage from "./components/infopages/ApptPage";
@@ -18,7 +18,7 @@ function App() {
     
 
       <Routes>
-      <Route path="/" element={[<Header/>,<TopSection/>,<MainContent/>, <Pricing/>, ]}/>   
+      <Route path="/" element={[<Header/>,<TopSection/>,<MainContent/>, <Pricing/>,<Footer/> ]}/>   
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/leadpage" element={<LeadPage/>}/> 
           <Route path="/ColdCallingPage" element={<ColdCallingPage/>}></Route> 

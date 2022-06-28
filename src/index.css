@@ -27,6 +27,31 @@ body {
   
 }
 
+.circle {
+  display: flex;
+ position: absolute;
+width: 780px;
+height: 780px;
+right: 1100px;
+top: -172px;
+}
+
+.container-flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    position:absolute;
+    height: 80px;
+    left:0;
+    right:0;
+    background: #13183F;
+}
+
+.facebook {
+  margin-right: 20px;
+}
+
 .profile-pic {
   width: 200px;
   border-radius: 50%;

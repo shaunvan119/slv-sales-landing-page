@@ -1,5 +1,6 @@
 import CountLeads from "../CountLeads"
 import Header from "../Header"
+import Footer from "../Footer"
 
 function LeadPage() {
     
@@ -12,10 +13,9 @@ function LeadPage() {
             using contact scraping software we can pull a data list together based on roles and job titles, generating <br/>
             a list of decision makers specific to your target audience. </p>
         <div className="counter-section">
-           
             <CountLeads/>
-           
             </div> 
+            
         </div>
         
     )
