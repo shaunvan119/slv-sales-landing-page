@@ -16,7 +16,19 @@ function WebCreation() {
 
         <div className="container-web">
         <Header/>
-        
+        <div className="about-section">
+        <div className="about-section-left">
+            <h1 className="h1-webdesign">Turn website visitors<br/> into buyers</h1>
+            <p className="p-webdesign">
+             Get it right the first time, dont spend 30K<br/> on a landing page with all the
+             bells and whistles.<br/> From the point your prospect hits your website<br/> 
+             you have less then 15 secounds to attract<br/> their attention.</p>
+        </div>
+        <div className="computer-image">
+                <img class="portfolio-grid-images image-computer" src={webpic} alt="computer"/>
+                <div class="centered"><span className="webdesign">NEXT LEVEL</span><br/><span className="view-projects">WEB DEVELOPMENT</span></div>
+        </div>
+        </div>
         <div className="top-section-webdesign">
          <div className="top-section-left">
                 <h2 className="heading-webdesign">Fully responsive 
@@ -37,19 +49,7 @@ function WebCreation() {
                  <ContactOffer/>
           </div>
         </div>
-        <div className="about-section">
-        <div className="about-section-left">
-            <h1 className="h1-webdesign">Turn website visitors<br/> into buyers</h1>
-            <p className="p-webdesign">
-             Get it right the first time, dont spend 30K<br/> on a landing page with all the
-             bells and whistles.<br/> From the point your prospect hits your website<br/> 
-             you have less then 15 secounds to attract<br/> their attention.</p>
-        </div>
-        <div className="computer-image">
-                <img class="portfolio-grid-images image-computer" src={webpic} alt="computer"/>
-                <div class="centered"><span className="webdesign">NEXT LEVEL</span><br/><span className="view-projects">WEB DEVELOPMENT</span></div>
-        </div>
-        </div>
+        
                 <h1 className="projects-header">Some of our projects</h1>
         <div className="portfolio-grid">
                 <a href="https://magnificent-dieffenbachia-b7bc19.netlify.app/" target="_blank" rel="noreferrer"><img class="portfolio-grid-images" src={apparel} alt="apparel"/></a>
