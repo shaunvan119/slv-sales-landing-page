@@ -19,20 +19,23 @@ function WebCreation() {
         
         <div className="top-section-webdesign">
          <div className="top-section-left">
-                <h2 className="heading-webdesign">Fully responsive website<br/>
-                with purpose</h2> 
-                <p className="paragraph-webdesign">We will design a fully responsive website that will convert traffic into buyers, your website has one job, generate leads. 
-                Web designers are great at making things pretty but they can not build you a website that can attract buyers, typically a web designer doesn't have a background in the psychology of a consumer's buying behavior to attract buyers. Your website needs to <br/> have emotional triggers to convert online traffic to hit that<br/> 
-                submit or buy button. </p>
-            <p className="paragraph-webdesign">Your website is a central hub for all your marketing spend, you spend thousands
-                of dollars to direct online traffic to your page with no conversion, and your
-                marketing team or agency get excited because clicks have increased,
-                that's great but you need leads not another fluff meeting with a 
-                marketing agency discussing stats around clicks.</p>
+                <h2 className="heading-webdesign">Fully responsive 
+                website<br/>with purpose</h2> 
+                <p className="paragraph-webdesign">       
+                We will design a fully responsive website that will <br/>
+                convert traffic into buyers, your website has one job, <br/>
+                generate leads. Web designers are great at making <br/>
+                things pretty but they can not build you a website<br/>
+                that can attract buyers, typically a web designer <br/>
+                doesn't have a background in the psychology of <br/>
+                a consumer's buying behavior to attract buyers.<br/>
+                Your website needs to have emotional triggers to<br/> 
+                convert online traffic to hit that submit or buy button. </p>
+            
         </div>
-                 <div className="contactOffer">
+          <div className="contactOffer">
                  <ContactOffer/>
-         </div>
+          </div>
         </div>
         <div className="about-section">
         <div className="about-section-left">

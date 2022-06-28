@@ -49,7 +49,7 @@ const Contact = () => {
         <label>Message</label>
         <textarea name="message" />
         <div> {result ? <Result/> : null}</div>
-        <input type="submit" value="Send" />
+        <input className="contact-button" type="submit" value="Send" />
       </form>
    </div> 
   );

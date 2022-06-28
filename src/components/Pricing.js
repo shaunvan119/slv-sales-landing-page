@@ -28,40 +28,40 @@ function Copyright(props) {
 
 const tiers = [
   {
-    title: 'Sales rep by the hour',
-    price:  '86 p/hr',
+    title: 'Hire a sales rep',
+    price:  '65 p/hr',
     description: [
       'Cold calling',
       'Appointment setting',
-      'B2B and B2C cold outreach',
+      'Lead automation',
       'Lead list creation',
     ],
     buttonText: 'Contact us',
     buttonVariant: 'outlined',
   },
   {
-    title: 'Sales rep + Digital transform',
+    title: 'Digital transform + Website creation',
     
     price: '5430',
     description: [
-      'Cold calling',
-      'Appointment setting',
-      'B2B and B2C cold outreach',
-      'Outreach automation',
-      'Digital transform package'
+      'Automate website traffic',
+      'Automate LinkedIn msg',
+      'Automate email campaigns',
+      'Lead list creation',
+      'Multipage website creation'
     ],
     buttonText: 'Contact us',
     buttonVariant: 'contained',
   },
   {
-    title: 'Digital transform ',
+    title: 'Website creation',
     price: '1990',
     description: [
       'Website creation',
       'Website design',
       'Lead landing pages',
-      'LinkedIn automation',
-      'Automated email campaigns',
+      'Mobile responsive websites',
+      'Websites that will convert',
     ],
     buttonText: 'Contact us',
     buttonVariant: 'outlined',
@@ -97,7 +97,7 @@ function PricingContent() {
           Pricing
         </Typography>
         <Typography style={styleObj} variant="h5" align="center" color="#83869A" component="p" >
-          Get an uplift in lead conversions for fraction of the cost of a fulltime BDM and marketing agency.
+          
         </Typography>
       </Container>
       {/* End hero unit */}

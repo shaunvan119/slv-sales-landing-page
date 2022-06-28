@@ -18,7 +18,7 @@ function App() {
     
 
       <Routes>
-      <Route path="/" element={[<Header/>,<TopSection/>,<MainContent/>,<PersonalProfile/>, <Pricing/>, ]}/>   
+      <Route path="/" element={[<Header/>,<TopSection/>,<MainContent/>, <Pricing/>, ]}/>   
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/leadpage" element={<LeadPage/>}/> 
           <Route path="/ColdCallingPage" element={<ColdCallingPage/>}></Route> 

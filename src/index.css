@@ -1,9 +1,7 @@
 body {
   margin: 0;
   background: #F2F2F2;
-  
   font-family: Plus Jakarta Sans;
-  
 }
 
 
@@ -26,6 +24,7 @@ body {
 
 .top-section {
   margin-bottom: 150px;
+  
 }
 
 .profile-pic {
@@ -94,6 +93,10 @@ body {
   border-radius: 15px;
 }
 
+.contact-button {
+  width: 415px;
+}
+
 /*Typography and color home page*/
 
 
@@ -102,7 +105,17 @@ body {
 }
 
 .color-logo {
-  color:  #FF6F48;
+  color:  #13183F;
+  font-size: 30px;
+}
+
+.color-dev {
+  color: #FFFFFF;
+  background-color: #13183F;
+  margin-left: 15px;
+  padding: 8px;
+  font-size: 30px;
+  
 }
 
 .icons {
@@ -252,9 +265,10 @@ button {
       margin-top: 1rem;
     }
     input[type="submit"] {
+      
       margin-top: 2rem;
       cursor: pointer;
-      background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+      background-color: #13183F;
       color: #FFFFFF;
       border: none;
       font-family: Plus Jakarta Sans;
@@ -352,9 +366,11 @@ button {
 
 /*Web creation page layou*/
 
+
+
 .portfolio-grid-images {
   width: 500px;
-  height: 410px;
+  height: 365px;
   margin: 20px;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
 }
@@ -368,6 +384,7 @@ button {
 .top-section-webdesign {
   display: flex;
   flex-direction: row;
+  
 }
 
 .computer-image {
@@ -392,6 +409,10 @@ button {
 
 .top-section-webdesign {
   margin-bottom:  100px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
 }
 
 .about-section {
@@ -404,10 +425,25 @@ button {
   top: 155px;
   border-radius: 15px;
   background: #E7816B;
+  margin-bottom: 200px;
 }
 
 
+/* Form webdesign section*/
 
+.form-webdesign {
+  width: 450px;
+  margin-top: 50px;
+}
+
+.input-webdesign {
+  border: none;
+}
+
+.webdesign-button {
+  background: #13183F;
+  width: 470px;
+}
 
 /*Web creation page Typography*/
 
