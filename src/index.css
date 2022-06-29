@@ -544,8 +544,88 @@ font-family: Plus Jakarta Sans;
  }
 
 
+
+/*MQ tablet home page*/
+
+@media  (max-width: 1088px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: center;
+    background-color: pink;
+  
+  }
+
+  .grid-container-one {
+  margin-right: 100px;
+  
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .top-header-homepage {
+    margin: 30px;
+  }
+
+  .top-heading, .top-heading, .top-paragraph, .counter-section {
+    margin: 30px;
+  }
+
+  .container-web  {
+    margin: 30px;
+  }
+
+  .about-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 455px;
+  width: 975px;
+  left: 165px;
+  top: 155px;
+  border-radius: 15px;
+  background: #E7816B;
+  margin-bottom: 80px;
+}
+
+.h1-webdesign, .heading-webdesign {
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 50px;
+}
+
+.p-webdesign, .paragraph-webdesign {
+  font-size: 16px;
+  
+}
+
+  .call-button {
+    margin-top: 40px;
+  }
+
+
+  .portfolio-grid {
+    justify-content: center;
+  }
+
+}
+
+/*MQ tbalet info pages*/
+
+@media  (max-width: 1088px) {
+  
+
+}
+
+
+
 /*MQ mobile home page*/
-@media  (max-width: 1071px) {
+@media  (max-width: 375px) {
   .main-container, .top-section {
     display: flex;
     flex-direction: column;

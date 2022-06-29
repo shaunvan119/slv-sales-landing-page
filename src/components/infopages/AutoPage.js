@@ -4,7 +4,7 @@ import Header from "../Header"
 function AutoPage() {
     
     return (
-        <div className="top-section">
+        <div className="info-container">
         <Header/>
             <h2 className="top-heading">Minimize your spend<br/>on marketing and wages</h2> 
             <p className="top-paragraph">With so many emerging software tools on the market to help automate your outbound strategy<br/> 

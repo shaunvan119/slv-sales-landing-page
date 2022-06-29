@@ -5,7 +5,7 @@ function ApptPage() {
     
     return (
         
-        <div className="top-section">
+        <div className="info-container">
         <Header/>
             <h2 className="top-heading">Appoitment Setting</h2> 
             <p className="top-paragraph">We qualify and set appointments for your sales team,<br/> 

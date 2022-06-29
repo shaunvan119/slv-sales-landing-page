@@ -4,7 +4,7 @@ import Header from "../Header"
 function ColdCallingPage() {
     
     return (
-        <div className="top-section">
+        <div className="info-container">
         <Header/>
             <h2 className="top-heading">Cold Calling</h2> 
             <p className="top-paragraph">With over 10 years experience cold calling we have developed innovative scripts that cut through<br/>
