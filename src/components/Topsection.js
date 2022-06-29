@@ -2,7 +2,6 @@
 import CountRev from "./CountRev"
 import CountLeads from "./CountLeads"
 import CountWeb from "./CountWeb"
-import oval from "../assets/Oval.png"
 import Circle from "../assets/bg-pattern-circle.svg"
 
 function TopSection() {
