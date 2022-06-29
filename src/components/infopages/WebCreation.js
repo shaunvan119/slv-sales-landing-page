@@ -13,10 +13,12 @@ import ContactOffer from "../ContactOffer"
 function WebCreation() {
     
     return (
-        
+
 
         <div className="container-web">
+        <div className="header-web">
         <Header/>
+        </div>
         <div className="about-section">
         <div className="about-section-left">
             <h1 className="h1-webdesign">Turn website visitors<br/> into buyers</h1>
@@ -26,7 +28,7 @@ function WebCreation() {
              you have less then 15 secounds to attract<br/> their attention.</p>
         </div>
         <div className="computer-image">
-                <img class="portfolio-grid-images image-computer" src={webpic} alt="computer"/>
+                <img class="image-computer" src={webpic} alt="computer"/>
                 <div class="centered"><span className="webdesign">NEXT LEVEL</span><br/><span className="view-projects">WEB DEVELOPMENT</span></div>
         </div>
         </div>

@@ -422,7 +422,8 @@ button {
 
 .image-computer {
   border-radius: 15px;
-  
+  height: 400px;
+  width: 400px;
 }
 
 .centered {
@@ -545,14 +546,14 @@ font-family: Plus Jakarta Sans;
 
 
 
-/*MQ tablet home page*/
+/*MQ tablet page*/
 
 @media  (max-width: 1088px) {
   .main-container {
     display: grid;
     grid-template-columns: auto auto ;
     justify-content: center;
-    background-color: pink;
+    
   
   }
 
@@ -586,11 +587,7 @@ font-family: Plus Jakarta Sans;
   justify-content: space-evenly;
   height: 455px;
   width: 975px;
-  left: 165px;
-  top: 155px;
-  border-radius: 15px;
-  background: #E7816B;
-  margin-bottom: 80px;
+  
 }
 
 .h1-webdesign, .heading-webdesign {
@@ -615,18 +612,15 @@ font-family: Plus Jakarta Sans;
 
 }
 
-/*MQ tbalet info pages*/
-
-@media  (max-width: 1088px) {
-  
-
-}
 
 
 
-/*MQ mobile home page*/
-@media  (max-width: 375px) {
-  .main-container, .top-section {
+
+
+
+/*MQ mobile*/
+@media  (max-width: 706px) {
+  .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -634,26 +628,167 @@ font-family: Plus Jakarta Sans;
 
   }
 
-  .top-section {
-    display: flex;
-    margin: 10px; 
+  .webdesign {
+  font-size: 30px;
+  
+  
+}
+
+  .call-button {
+    height: 44px;
+    width: 140px;
+    margin-top: 50px;
+    
   }
 
-  .wrapper {
-  display: flex;
-  flex-direction: column;
+  .color-logo, .color-dev, .call-button {
+    font-size: 16px;
+  }
+
+
+  .grid-container-one {
+  margin-right: 0px;
+  
 }
 
-.top-header {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
+.top-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+.top-paragraph {
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.profile-card-4{
+
+
+  .about-section {
+  height: auto;
+  width: auto;
+  background-color: transparent;
+  justify-content: center;
+  
+
+}
+
+.h1-webdesign, .p-webdesign {
+  display: none;
+}
+
+.view-projects {
+  color: #FFFFFF;
+}
+
+
+
+.p-webdesign, .h1-webdesign {
+  margin-left: 10px;
+}
+
+.image-computer {
+  
+  margin-top: -40px;
+}
+
+.top-section-webdesign {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.portfolio-grid {
+  display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+
+}
+
+/*MQ mobile */
+@media  (max-width: 545px) {
+  
+.counter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+  .about-section {
+  background-color: transparent;
+}
+
+.image-computer {
+  width: 400px;
+  height: 350px;
+}
+
+.portfolio-grid-images {
+  width: 400px;
+}
+
+.webdesign {
+  font-size: 30px;
+  
+  
+}
+
+.centered {
+  
+  transform: translate(-50%, -100%); 
+}
+
+.container-web {
+ margin: 0 auto;
+ max-width: 95%;
+
+
+}
+
+form {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.contact-button {
+  width: 370px;
+}
+
+.webdesign-button {
+  width: 370px;
+}
+
+.heading-webdesign {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.paragraph-webdesign {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.top-section-left {
+  margin-top: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
