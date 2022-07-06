@@ -1,6 +1,7 @@
 import CountCalls from "../CountCalls"
 import Header from "../Header"
 
+
 function ColdCallingPage() {
     
     return (
@@ -18,6 +19,7 @@ function ColdCallingPage() {
         <div className="counter-section">
             <CountCalls/> 
             </div> 
+         
         </div>
         
     )

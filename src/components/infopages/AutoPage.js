@@ -1,6 +1,7 @@
 
 import Header from "../Header"
 
+
 function AutoPage() {
     
     return (
@@ -14,7 +15,7 @@ function AutoPage() {
                 Marketing companies will focus on paid adds/key words to target a broad audience, <br/>
                 our approach is to focus on a specific data list of decision makers who <br/>
                 hold positions relevant to your target audience. In return lower lower cost per lead.  </p>
-        
+       
         </div>
         
     )

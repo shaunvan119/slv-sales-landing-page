@@ -1,11 +1,11 @@
 import CountLeads from "../CountLeads"
 import Header from "../Header"
-import Footer from "../Footer"
+
 
 function LeadPage() {
     
     return (
-        
+        <div className="warpper-footer">
         <div className="info-container">
         <Header/>
             <h2 className="top-heading">Lead list generation</h2> 
@@ -17,7 +17,8 @@ function LeadPage() {
             </div> 
             
         </div>
-        
+ 
+      </div>  
     )
 }
 

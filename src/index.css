@@ -5,19 +5,14 @@ body {
 }
 
 
+
+
 .top-section {
   margin-bottom: 150px;
   
 }
 
-.circle {
-  display: flex;
-  position: absolute;
-  width: 780px;
-  height: 780px;
-  right: 1100px;
-  top: -172px;
-}
+
 
 .container-flex-footer {
     display: flex;
@@ -373,6 +368,7 @@ button {
 
 
 /*Web creation page layou*/
+
 
 
 
