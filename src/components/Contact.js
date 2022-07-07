@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 
 
 
+
 // npm i @emailjs/browser
 
 const Result = () => {
@@ -51,6 +52,7 @@ const Contact = () => {
         <div> {result ? <Result/> : null}</div>
         <input className="contact-button" type="submit" value="Send" />
       </form>
+      
    </div> 
   );
 };

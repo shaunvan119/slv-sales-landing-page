@@ -5,8 +5,10 @@ import Header from "../Header"
 function ColdCallingPage() {
     
     return (
-        <div className="info-container">
+
+        <div>
         <Header/>
+        <div className="info-container">
             <h2 className="top-heading">Cold Calling</h2> 
             <p className="top-paragraph">With over 10 years experience cold calling we have developed innovative scripts that cut through<br/>
                 gate keepers, and have meaningful discussions with key decision makers. How many times <br/>
@@ -21,7 +23,7 @@ function ColdCallingPage() {
             </div> 
          
         </div>
-        
+        </div>
     )
 }
 

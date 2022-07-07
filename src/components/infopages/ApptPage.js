@@ -6,10 +6,10 @@ import Header from "../Header"
 function ApptPage() {
     
     return (
-        
-        <div className="info-container">
+        <div>
         <Header/>
-    
+        <div className="info-container">
+        
             <h2 className="top-heading">Appoitment Setting</h2> 
             <p className="top-paragraph">We qualify and set appointments for your sales team,<br/> 
               depending on the type of product we can generate<br/> 
@@ -21,7 +21,7 @@ function ApptPage() {
             </div> 
       
         </div>
-        
+        </div>
     )
 }
 

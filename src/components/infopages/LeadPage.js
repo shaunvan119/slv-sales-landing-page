@@ -5,9 +5,10 @@ import Header from "../Header"
 function LeadPage() {
     
     return (
-        <div className="warpper-footer">
-        <div className="info-container">
+        <div>
         <Header/>
+        <div className="info-container">
+        
             <h2 className="top-heading">Lead list generation</h2> 
             <p className="top-paragraph">We can generate 1000s of decision makers with emails, mobile and landline numbers, <br/>
             using contact scraping software we can pull a data list together based on roles and job titles, generating <br/>
