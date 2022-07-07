@@ -58,7 +58,7 @@ function WebCreation() {
         
                 <h1 className="projects-header">Some of our projects</h1>
         <div className="portfolio-grid">
-                <a href="https://shaunvan119.github.io/bbq-webpage/" target="_blank" rel="noreferrer"><img class="portfolio-grid-images" src={scoot} alt="scoot"/></a>
+                <a href="https://transcendent-gnome-a5e02c.netlify.app/" target="_blank" rel="noreferrer"><img class="portfolio-grid-images" src={scoot} alt="scoot"/></a>
                 <a href="https://magnificent-dieffenbachia-b7bc19.netlify.app/" target="_blank" rel="noreferrer"><img class="portfolio-grid-images" src={apparel} alt="apparel"/></a>
                 <a href="https://symphonious-chebakia-166971.netlify.app/" target="_blank" rel="noreferrer"><img class="portfolio-grid-images" src={payapi} alt="payapi"/></a>
                 <a href="https://regal-gecko-130083.netlify.app/" target="_blank" rel="noreferrer"><img class="portfolio-grid-images" src={suite} alt="suite"/></a>
