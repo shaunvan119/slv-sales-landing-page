@@ -403,6 +403,7 @@ button {
   border-radius: 15px;
   height: 400px;
   width: 400px;
+ 
 }
 
 .centered {
@@ -426,11 +427,9 @@ button {
   justify-content: center;
   justify-content: space-evenly;
   height: 455px;
-  width: 1111px;
-  left: 165px;
-  top: 155px;
-  border-radius: 15px;
-  background: #E7816B;
+  width: 100%;
+  
+  background: #222121;
   margin-bottom: 80px;
 }
 
@@ -458,7 +457,7 @@ button {
 .webdesign {
   font-family: 'Jost', sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .view-projects {
@@ -478,8 +477,9 @@ button {
 .h1-webdesign {
   font-size: 46px;
   font-weight: 800;
-  line-height: 71px;
+  line-height: 50px;
   letter-spacing: 0px;
+  margin-top: 100px;
   color:#FFFFFF;
 }
 
@@ -505,7 +505,8 @@ color:#FFFFFF;
     font-family: Plus Jakarta Sans;
     font-size: 46px;
     font-weight: 800;
-    line-height: 71px;
+    line-height: 50px;
+    margin-top: 70px;
     letter-spacing: 0px;
     color: #13183F;
 }

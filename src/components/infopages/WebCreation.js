@@ -11,6 +11,8 @@ import Footer from "../Footer"
 
 
 
+
+
 function WebCreation() {
     
     return (
@@ -20,7 +22,7 @@ function WebCreation() {
         <div className="header-web">
         <Header/>
         </div>
-        <div className="about-section">
+        <div className="about-section"  >
         <div className="about-section-left">
             <h1 className="h1-webdesign">Turn website visitors<br/> into buyers</h1>
             <p className="p-webdesign">
