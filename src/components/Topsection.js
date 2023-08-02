@@ -2,7 +2,7 @@
 import CountRev from "./CountRev"
 import CountLeads from "./CountLeads"
 import CountWeb from "./CountWeb"
-import Circle from "../components/infopages/portfolio/bg-pattern-circle.svg"
+
 
 
 function TopSection() {
@@ -21,7 +21,9 @@ function TopSection() {
             <CountLeads/>
             <CountWeb/> 
             </div> 
-            <div className="color-item"></div>
+            <div className="color-item">
+                
+            </div>
         </div>
 
        </div> 
